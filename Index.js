@@ -18,19 +18,20 @@ time = `${Hour}:${Minute}:${second}:${Am}`
 },1000)
 
 document.querySelector('button').onclick = () => {
-  if(document.querySelector('body').style.background == 'white'){
+  if(document.querySelector('body').style.background === 'white'){
     document.querySelector('body').style.background = 'black';
     document.querySelector('#txt').style.color = 'white';
-    document.querySelector('button').style.background = "black";
-    document.querySelector('button').innerHTML = "Dark";
-    document.querySelector('button').style.color = "white";
+    document.querySelector('button').innerHTML = "Light";
+    document.querySelector('button').style.background = "white";
+    document.querySelector('button').style.color = "black";
   }
   else{
     document.querySelector('body').style.background = "white";
     document.querySelector('#txt').style.color = 'black';
-    document.querySelector('button').innerHTML = "Light";
-    document.querySelector('button').style.background = "white";
-    document.querySelector('button').style.color = "black";
+    
+document.querySelector('button').style.background = "black";
+    document.querySelector('button').innerHTML = "Dark";
+    document.querySelector('button').style.color = "white";
   }
 }
   
