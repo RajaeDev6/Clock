@@ -22,7 +22,8 @@ const body =document.querySelector('#body');
 button.onclick = () => {
   if(body.style.background === 'white'){
     body.style.background = 'black';
-    document.querySelector('#txt').style.color = 'white';
+    document.querySelector('#txt').style.color = 'white'
+    document.querySelector('#txtt').style.color = 'white'
     button.style.background = "white";
     button.style.color = "black";
     button.innerHTML = "Light";
@@ -30,6 +31,8 @@ button.onclick = () => {
   else{
     body.style.background = "white";
     document.querySelector('#txt').style.color = 'black';
+    document.querySelector('#txtt').style.color = 'black';
+    
     button.innerHTML = "Dark";
     button.style.background = "black";
     button.style.color = "white";
