@@ -18,7 +18,7 @@ time = `${Hour}:${Minute}:${second}:${Am}`
   document.querySelector("#txt").innerHTML = time
 },1000);
 const button =document.querySelector('button');
-const body =document.querySelector('body');
+const body =document.querySelector('#body');
 button.onclick = () => {
   if(body.style.background === 'white'){
     body.style.background = 'black';
