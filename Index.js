@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', ()=>{
+
 setInterval(function(){
 const date = new Date()
 var Hour = date.getHours()
@@ -29,7 +29,7 @@ button.style.color === 'black' ? button.style.color = 'white' : button.style.col
   console.log('change');
 }
 
-})  
+
   
   
   
