@@ -17,29 +17,18 @@ else{
 time = `${Hour}:${Minute}:${second}:${Am}`
   document.querySelector("#txt").innerHTML = time
 },1000);
-const button =document.querySelector('button');
-const body =document.querySelector('#body');
-button.onclick = () => {
-  if(body.style.background === 'white'){
-    body.style.background = 'black';
-    document.querySelector('#txt').style.color = 'white'
-    document.querySelector('#txtt').style.color = 'white'
-    button.style.background = "white";
-    button.style.color = "black";
-    button.innerHTML = "Light";
-  }
-  else{
-    body.style.background = "white";
-    document.querySelector('#txt').style.color = 'black';
-    document.querySelector('#txtt').style.color = 'black';
-    
-    button.innerHTML = "Dark";
-    button.style.background = "black";
-    button.style.color = "white";
-  }
+  
+const body = document.getElementById('body')
+const button = document.getElementById('changeBackground')
+
+function change(){
+	body.classList.toggle('dark');
+	button.innerHTML === 'Light' ? button.innerHTML = 'Dark' : button.innerHTML = 'Light';
+button.style.backgroundColor === 'white' ? button.style.backgroundColor = 'black' : button.style.backgroundColor = 'white';
+button.style.color === 'black' ? button.style.color = 'white' : button.style.color = 'black';
+  console.log('change');
 }
-  
-  
+
 })  
   
   
