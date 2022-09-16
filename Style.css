@@ -1,10 +1,8 @@
-h1{
-  color: black;
-}
-
 body{
   margin:0;
   padding: 0;
+  background-color:black;
+  color:white;
 }
 
 #body{
@@ -16,19 +14,25 @@ body{
   flex-direction:column;
   transition: 0.3s;
 }
-.dark{
-background-color:black;
-  color:white;
+
+.light{
+  background-color:white;
+  color:black;
 }
+
 #changeBackground{
   top: 0;
-  left: 50%;
   transform: translateX(-50%);
   position:absolute;
   padding: 5px 10px;
-  background-color:black;
-  color:white;
   transition: 0.3s;
   border-radius: 25px;
   cursor: pointer;
+  background-color:white;
+  color:black;
+}
+
+.btn-dark{
+  background-color: black !important;
+  color: white !important;
 }
