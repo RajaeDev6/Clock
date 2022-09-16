@@ -21,15 +21,15 @@ body{
 }
 
 #changeBackground{
+  position:absolute;
   top: 0;
   transform: translateX(-50%);
-  position:absolute;
-  padding: 5px 10px;
-  transition: 0.3s;
-  border-radius: 25px;
-  cursor: pointer;
   background-color:white;
   color:black;
+  padding: 5px 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .btn-dark{
