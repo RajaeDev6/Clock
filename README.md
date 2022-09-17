@@ -1,2 +1,2 @@
 # yahoo100kkk.github.io
-Time
+A simple page that's just displaying the time created using html, css and javascript
