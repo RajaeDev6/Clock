@@ -1,2 +1,3 @@
-# yahoo100kkk.github.io
-A simple page that's just displaying the time created using html, css and javascript
+# simple Clock
+
+This is just a simeple clock created with html, css and some vanilla javascript. it just display the time in the middle of the screen
